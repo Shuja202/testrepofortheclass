@@ -1,0 +1,23 @@
+body{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;  /* Optional: Set minimum height for full viewport */
+}
+
+.box {
+    width: 150px; /* Set the width of the box */
+    height: 150px; /* Set the height of the box */
+    border: 2px solid black; /* Add a black border */
+    background-color: #f2f2f2; /* Set the background color to light gray */
+    margin: 5px
+  }
+
+
+  .row{
+
+    margin: 3px;
+
+
+  }
+  
