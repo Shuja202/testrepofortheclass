@@ -58,7 +58,7 @@ function handleClick(event) {
 
     // Add appropriate image based on player turn
     const image = document.createElement("img");
-    image.src = playerturn === 1 ? "images/tickimage.png" : "images/circle.png";
+    image.src = playerturn === 1 ? "images/tick.icon.png" : "images/circle.png";
     image.alt = playerturn === 1 ? "Player 1's Mark" : "Player 2's Mark";
     box.appendChild(image);
 
