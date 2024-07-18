@@ -1,19 +1,63 @@
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh; /* Optional: Set minimum height for full viewport */
+.game-title {
+  background-color: transparent; /* Remove background color */
+  color: #333; /* Dark gray text */
+  border: none; /* Remove border */
+  padding: 10px 20px; /* Maintain spacing */
+  margin-top: 20px; /* Maintain space above */
+  font-size: 2rem; /* Larger font size for title */
+  text-align: center; /* Center the text */
+  font-family: "Montserrat", sans-serif; /* Use your primary font */
+  font-weight: bold; /* Make text bold */
 }
+
+
+.grid {
+  align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.displaytext {
+  /* Inherit font family from parent element (likely header) */
+  font-family: "Montserrat", sans-serif; /* Use your primary font */
+  font-weight: bold; /* Make text bold */
+  font-size: 1.2rem; /* Adjust font size as needed */
+  color: #333; /* Dark gray text */
+  margin: 1rem 0; /* Maintain space above and below */
+  text-align: center; /* Center align the text */
+  font-weight: bold; /* Make text bold for emphasis (optional) */
+}
+
+
 
 .box {
   display: flex;
-  width: 150px; /* Set the width of the box */
-  height: 150px; /* Set the height of the box */
+  width: 100px; /* Set the width of the box */
+  height: 100px; /* Set the height of the box */
   border: 2px solid black; /* Add a black border */
   background-color: #f2f2f2; /* Set the background color to light gray */
   margin: 5px;
 }
 
 .row {
-  margin: 3px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.reset-button {
+  background-color: transparent; /* No background color */
+  color: #333; /* Dark gray text */
+  border: 1px solid #ddd; /* Light gray border */
+  padding: 1rem 2rem; /* Add spacing */
+  border-radius: 0; /* Remove rounded corners */
+  font-family: "Montserrat", sans-serif; /* Use your primary font */
+  font-weight: bold; /* Make text bold */
+  cursor: pointer; /* Indicate clickable element */
+  transition: all 0.2s ease-in-out; /* Add smooth hover effect */
+}
+
+.reset-button:hover {
+  color: #000; /* Black text on hover */
+  border-color: #aaa; /* Darken border on hover */
 }

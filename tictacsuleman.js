@@ -13,10 +13,15 @@ const winConditions = [
   [2, 4, 6]
 ];
 
+textelement = document.getElementById("currentplayertext")
+
 // Player indicator (optional, can be implemented with UI elements)
 function displayPlayerTurn() {
   // Update UI element (e.g., text) to show current player
-  console.log(`Player ${playerturn}'s turn`); // Placeholder for now
+
+  textelement.innerHTML = "Current Player: " + playerturn;
+
+ // console.log(`Player ${playerturn}'s turn`); // Placeholder for now
 }
 
 // Stopping the game when it ends

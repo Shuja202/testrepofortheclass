@@ -1,0 +1,35 @@
+.profile{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.profile-picture {
+    width: 350px; /* Adjust for aspect ratio if needed */
+    height: 350px;
+    margin-right: 20px;
+  }
+  
+  .profile-picture img {
+    width: 100%; /* Ensures image fills the div */
+    height: 100%; /* Ensures image fills the div */
+    border-radius: 50%; /* Creates a circular border */
+    object-fit: cover; /* Scales image to fill the div while maintaining aspect ratio */
+  }
+  
+  .profile-data {
+    font-family: Arial, sans-serif; /* Fallback for sans-serif */
+    font-weight: 400; /* Regular weight */
+    color: #ffffff; /* Dark Gray */
+    max-width: 350px;
+  }
+  
+  .profile-name {
+    font-family: "Montserrat", sans-serif; /* Modern Sans-serif font */
+    font-size: 2rem; /* Adjust font size as needed */
+    color: #f02777; /* Hot Pink */
+  }
+  
