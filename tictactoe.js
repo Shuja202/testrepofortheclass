@@ -13,6 +13,8 @@ const winConditions = [
   [2, 4, 6],
 ];
 
+
+
 // Player indicator (optional, can be implemented with UI elements)
 function displayPlayerTurn() {
   textelement = document.getElementById("currentplayertext");
